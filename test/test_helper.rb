@@ -2,7 +2,7 @@
 
 require 'helper'
 
-class Nanoc::Escaping::FilterTest < Minitest::Test
+class Nanoc::Escaping::HelperTest < Minitest::Test
 
   include Nanoc::Escaping::Helper
 

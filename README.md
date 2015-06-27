@@ -1,25 +1,3 @@
-[![Build Status](https://travis-ci.org/nanoc/nanoc-escaping.png)](https://travis-ci.org/nanoc/nanoc-escaping)
-[![Code Climate](https://codeclimate.com/github/nanoc/nanoc-escaping.png)](https://codeclimate.com/github/nanoc/nanoc-escaping)
-[![Coverage Status](https://coveralls.io/repos/nanoc/nanoc-escaping/badge.png?branch=master)](https://coveralls.io/r/nanoc/nanoc-escaping)
+This repository was part of the initial attempt at writing nanoc 4. That attempt did not go as initially planned, and was cancelled mid May 2015.
 
-# nanoc-escaping
-
-This provides functionality for escaping for [nanoc](http://nanoc.ws).
-
-## Installation
-
-`gem install nanoc-escaping`
-
-## Usage
-
-### `html_escape(string)`
-
-Returns a HTML-escaped version of `string`. `<`, `&`, `>` and `"` will be escaped.
-
-`h` is a short form of `html_escape`, so `h(string)` will work as well.
-
-### `html_escape do … end`
-
-For use with ERB, Erubis and Haml. HTML-escapes anything that is added to the output buffer while in the block.
-
-`h` is a short form of `html_escape`, so `h do … end` will work as well.
+Do not despair! There is a _true_ nanoc 4, and it lives in the [nanoc/nanoc repository](http://github.com/nanoc/nanoc). For information about nanoc 4 and how to upgrade, consult the [nanoc 4 upgrade guide](http://nanoc.ws/docs/nanoc-4-upgrade-guide/).
